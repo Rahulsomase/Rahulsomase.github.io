@@ -625,6 +625,16 @@ h3.my-profession {
 .service .container {
   padding-bottom: 40px;
 }
+#github{
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+#github img{
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
 /* services section end  */
 /* prjects section css start*/
 .button-project {
