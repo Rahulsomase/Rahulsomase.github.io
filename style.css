@@ -629,11 +629,10 @@ h3.my-profession {
   display: block;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 #github img{
-  margin: auto;
-  align-items: center;
-  text-align: center;
+  margin-top: 10PX;
 }
 /* services section end  */
 /* prjects section css start*/
