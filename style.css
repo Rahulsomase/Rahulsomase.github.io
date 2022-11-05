@@ -230,7 +230,7 @@ section .title::after {
 .about .title::after,
 .skills .title::after,
 .calender .title::after {
-  content: "who i am";
+  content: "";
  
 }
 .about .about-content .left {
@@ -301,7 +301,7 @@ section .title::after {
 .project .title::after,
 .contact .title::after {
   background: #111;
-  content: "what i provide";
+  content: "";
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -347,7 +347,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .skills .title::after {
-  content: "what i know";
+  content: "";
 }
 
 /* skills right column */
@@ -427,7 +427,7 @@ section .title::after {
 
 /* project section styling */
 .project .title::after {
-  content: "my work";
+  content: "";
 }
 .project .carousel .card {
   background: #222;
@@ -533,24 +533,26 @@ section .title::after {
 
 /* github section styling */
 .calender .title::after {
-  content: "calender";
+  content: "";
 }
 
-.serv-content{
+.serv-content {
   width: 90%;
   margin: auto;
 }
-.card1 p{
+
+.card1 {
   height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
   /* width: 100%; */
-  gap: 10px;
+  gap: 20px;
   margin-bottom: 2%;
 }
-.card1 img p{
-  width: 100%;
+
+.card1 img {
+  width: 32%;
 }
 
 
@@ -561,15 +563,19 @@ section .title::after {
   rgba(5, 94, 33, 0.918) 0px 1px 3px 1px; */
   margin-bottom: 3%;
 }
+
 .cardcal {
   background-color: black;
   box-shadow: rgba(19, 229, 113, 0.918) 0px 1px 2px 0px,
-  rgba(5, 94, 33, 0.918) 0px 1px 3px 1px;
+    rgba(5, 94, 33, 0.918) 0px 1px 3px 1px;
 }
+
+
+
 
 /* contact section styling */
 .contact .title::after {
-  content: "get in touch";
+  content: "";
 }
 .contact .contact-content .column {
   width: calc(50% - 30px);
