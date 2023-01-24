@@ -42,7 +42,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Java Backend Developer", "Full Stack Developer"],
+    strings: [""],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
