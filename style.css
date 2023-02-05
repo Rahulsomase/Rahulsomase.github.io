@@ -172,7 +172,7 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("https://images.unsplash.com/photo-1610619162404-6350871913ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80") no-repeat center;
+  background: url("https://images.unsplash.com/photo-1616004655123-818cbd4b3143?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80") no-repeat center;
   background-color: #111;
   height: 100vh;
   color: #fff;
@@ -215,6 +215,9 @@ section .title::after {
   border-radius: 6px;
   border: 2px solid #ffcc00;
   transition: all 0.3s ease;
+}
+.home .home-content li {
+ list-style: none;
 }
 .home .home-content a:hover {
   color: #ffcc00;

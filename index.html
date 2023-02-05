@@ -22,7 +22,7 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">R<span>AHUL</span></a></div>
+            <div class="logo"><a href="#">R<span>S</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
@@ -46,8 +46,10 @@
                 <div class="text-1">Hello, My name is</div>
                 <div class="text-2">Rahul Somase</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="Rahul Somase-Resume.pdf" download target="_blank">Resume </a>
-            </div>
+                <!-- <a href="Rahul Somase-Resume.pdf"  download target="_blank">Resume </a> -->
+                <div style="text-decoration:underline;" class="text-4"><li><a href="Rahul Somase-Resume.pdf" target="_blank" download=""  onclick="window.open('https://drive.google.com/file/d/15K_smhMlERqFyVBwRUr6B9dY55QaYYqg/view?usp=sharing')"class="menu-btn">Resume</a></li>
+                </div>
+                </div>
         </div>
     </section>
 
@@ -282,11 +284,12 @@
                     <!-- <img class="gimg1" src="https://github-readme-streak-stats.herokuapp.com/?user=Kajol1106&&theme=tokyonight" alt="gitstats"> -->
                     <img src="https://github-readme-stats.vercel.app/api?username=Rahulsomase&theme=white&hide_border=false&include_all_commits=true&count_private=false" alt="">
                     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rahulsomase&theme=white&hide_border=false" alt="">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahulsomase&theme=white&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="">
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahulsomase&theme=white&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="">
         
                 </div>
                     <!-- github calender -->
-                <div class="cardcal" style=" color: #000000; background-color: white;">
+                    
+                <div class="cardcal" style=" color: orange; background-color: white;">
                     <!-- github-calendar div -->
                     loading stuff here
                 </div>
@@ -371,5 +374,13 @@
     GitHubCalendar(".cardcal", "Rahulsomase");
 
     GitHubCalendar(".cardcal", "Rahulsomase", { responsive: true });
+    GitHubCalendar(".calendar", "Rahulsomase", {
+       proxy (Rahulsomase) {
+         return fetch(`https://your-proxy.com/github?user=${Rahulsomase}`)
+       }
+    }).then(r => r.text())
+</script>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
   
